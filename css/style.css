@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body {
+    width: 100%;
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: "Moderustic", sans-serif;
+}
+
+.img_principal {
+    width: 100%;
+    height: 480px;
+    display: block;
+}
+
+.div2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.img_prevencion {
+    width: 250px;
+    height: auto;
+    margin-left: 35px;
+}
+
+.parrafo1 {}
+
+.div3 {
+    overflow: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.list {
+    color: #068299;
+    width: calc(100% - 230px);
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.img_rutinas {
+    width: 400px;
+    margin-right: 40px;
+    position: relative;
+    bottom: 10px;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.parrafo2 {
+    color: #ed604d;
+    margin-bottom: 35px;
+}
+
+.btn_wha {
+    background-color: #ff7900;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.icon_wha {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 4px;
+}
+
+.div5 {
+    text-align: left;
+}
+
+.parrafo3 {
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.parrafo4 {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: -1px;
+}
+
+.parrafo5 {
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+.parrafo6 {
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #00849d;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+
+.img_petplus {
+    width: 20%;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    .img_principal {
+        height: 450px;
+    }
+
+    .img_prevencion {
+        width: 200px;
+    }
+
+    .img_rutinas {
+        width: 350px;
+        bottom: 5px;
+    }
+}
+
+@media (max-width:572px) {
+    body {
+        font-size: 12px;
+    }
+
+    .img_principal {
+        height: 300px;
+    }
+
+    .div2 {
+        gap: 10px;
+    }
+
+    .list {
+        font-size: 12px;
+    }
+
+    .img_prevencion {
+        width: 180px;
+    }
+
+    .img_rutinas {
+        width: 250px;
+    }
+
+    .btn_wha {
+        height: 50px;
+    }
+
+    .parrafo3,
+    .parrafo4 {
+        font-size: 10px;
+    }
+
+    .icon_wha {
+        bottom: 0px;
+    }
+
+    .list {
+        margin-left: 25px;
+    }
+
+    .parrafo5 {
+        font-size: 10px;
+    }
+
+    .parrafo6 {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .img_prevencion {
+        width: 150px;
+        margin-left: 15px;
+    }
+
+    .div2 {
+        gap: 5px;
+    }
+
+    .parrafo1 {
+        font-size: 11px;
+    }
+
+    .parrafo2 {
+        font-size: 10px;
+    }
+
+    .btn_wha {
+        height: 45px;
+    }
+
+    .parrafo3,
+    .parrafo4 {
+        font-size: 8px;
+    }
+
+    .parrafo5 {
+        font-size: 6px;
+    }
+
+    .parrafo6 {
+        font-size: 6px;
+    }
+}
+
+@media (max-width:400px) {
+    .img_principal {
+        height: 250px;
+    }
+
+    .img_prevencion {
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .parrafo1 {
+        font-size: 9px;
+    }
+
+    .list {
+        margin-left: 10px;
+        font-size: 9px;
+    }
+
+    .img_rutinas {
+        margin-right: 20px;
+        width: 180px;
+    }
+
+    .parrafo2 {
+        font-size: 7px;
+        margin-bottom: 15px;
+    }
+
+    .btn_wha {
+        height: 32px;
+    }
+
+    .icon_wha {
+        width: 20px;
+        height: auto;
+    }
+
+    .parrafo3,
+    .parrafo4 {
+        font-size: 7px;
+    }
+
+    .parrafo4{
+        margin-left: 3px;   
+    }
+    .parrafo5{
+        margin-top: 30px;
+    }
+    footer{
+        height: 120px;
+    }
+}
